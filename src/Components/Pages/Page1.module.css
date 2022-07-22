@@ -6,9 +6,11 @@
   font-family: "Poppins", sans-serif;
 }
 
-.main-div {
+.container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  /* border: 1px solid red; */
+ 
 }
 .first {
   display: flex;
@@ -47,7 +49,7 @@
 }
 
 .third img {
-  margin-top: 54px;
+  /* margin-top: 10px; */
   width: 100%;
   object-fit: cover;
 }
