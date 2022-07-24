@@ -1,13 +1,12 @@
 import "./App.css";
-import Footer from "./Components/Footer";
 import Navbarmain from "./Components/Navbar";
-import SigninPage from "./Components/NavPages.jsx/SigninPage";
+import SigninPage from "./Components/NavPages/SigninPage";
 import Allroutes from "./Components/Pages/Allroutes";
-import Page1 from "./Components/Pages/Page1";
-import Page2 from "./Components/Pages/Page2";
-import Page3 from "./Components/Pages/Page3";
-import Page4 from "./Components/Pages/Page4";
+
 import Prefooter from "./Components/Pages/Prefooter";
+import Footer from "./Components/Footer";
+import Home from "./Components/NavPages/Home";
+import Mainsigninpage from "./Components/NavPages/Mainsigninpage";
 
 function App() {
   return (
@@ -15,18 +14,11 @@ function App() {
       {/* <h1>Jai Shree Ram</h1> */}
       <Navbarmain />
       <Allroutes />
+      {/* <Home />
 
-       <Page1 />
-      <Page2 />
-
-      <Page3 />
-
-      <Page4 />
-       <SigninPage /> 
-
-       <Prefooter />
-
-       <Footer />
+      <Prefooter />
+      <Footer /> */}
+      {/* <Mainsigninpage /> */}
     </>
   );
 }

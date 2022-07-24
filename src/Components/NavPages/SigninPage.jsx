@@ -1,10 +1,11 @@
 import React from "react";
 import styles from "./Signinpage.module.css";
+import { Link } from "react-router-dom";
 
 const SigninPage = () => {
   return (
     <>
-      <h1>Sigin Page</h1>
+      {/* <h1>Sigin Page</h1> */}
 
       <div className={styles.container}>
         <div className={styles.first}>
@@ -30,22 +31,23 @@ const SigninPage = () => {
         <div className={styles.second}>
           <div className="form">
             <h6>Working Email Addres</h6>
-            <input type="text" placeholder="Email Address..." />
+            <input type="text" placeholder="Email Address..." required/>
             <br />
             <h6>First Name</h6>
-            <input type="text" placeholder="First Name..." />
+            <input type="text" placeholder="First Name..." required />
             <br />
             <h6>Last Name</h6>
-            <input type="text" placeholder="Last Name" />
+            <input type="text" placeholder="Last Name" required/>
             <br />
             <h6>Company Name</h6>
-            <input type="text" placeholder="Company Name" />
+            <input type="text" placeholder="Company Name" required/>
             <br />
             <h6>Company Size</h6>
-            <input type="text" placeholder="input" />
+            <input type="number" placeholder="company size" required/>
             <br />
-
+            <Link to="/signin">
             <button>Get in touch</button>
+            </Link>
           </div>
         </div>
         <div className={styles.third}>

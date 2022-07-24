@@ -4,7 +4,7 @@ import style from "./Footer.module.css";
 const Footer = () => {
   return (
     <>
-      <h1>Footer Page </h1>
+      {/* <h1>Footer Page </h1> */}
       <footer className={style.footer}>
         <div className={style.sec1}>
           <div className={style.left}>
