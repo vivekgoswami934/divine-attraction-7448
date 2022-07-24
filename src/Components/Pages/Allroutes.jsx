@@ -1,24 +1,28 @@
-import React from 'react'
-    import { Route, Routes } from "react-router-dom";
+import React from "react";
+import { Route, Routes } from "react-router-dom";
+import About from "../NavPages/About";
+import Community from "../NavPages/Community";
+import Home from "../NavPages/Home";
+import Mainsigninpage from "../NavPages/Mainsigninpage";
+import Product from "../NavPages/Product";
+import Resources from "../NavPages/Resources";
+import SigninPage from "../NavPages/SigninPage";
 
 const Allroutes = () => {
   return (
     <>
-    
       <Routes>
-        <Route path="/" element={<h1>Home</h1>}  />
-        <Route path="/product" element={<h1>product</h1>}  />
-        <Route path="/resources" element={<h1>resources</h1>}  />
-        <Route path="/about" element={<h1>about</h1>}  />
-        <Route path="/community" element={<h1>community</h1>}  />
-        <Route path="/signin" element={<h1>signin</h1>}  />
-        <Route path="/requestademo" element={<h1>requestademo</h1>}  />
-        <Route path="/search" element={<h1>search</h1>}  />
+        <Route path="/" element={<Home />} />
+        <Route path="/product" element={<Product />} />
+        <Route path="/resources" element={<Resources />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/community" element={<Community />} />
+        <Route path="/signin" element={<Mainsigninpage />} />
+        <Route path="/requestademo" element={<SigninPage />} />
+        <Route path="/search" element={<SigninPage />}  />
       </Routes>
-
-      
     </>
-  )
-}
+  );
+};
 
-export default Allroutes
+export default Allroutes;

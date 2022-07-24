@@ -3,7 +3,7 @@ import  P3 from "../Pages/Page3.module.css";
 const Page3 = () => {
   return (
     <>
-      <h2>Page 3</h2>
+      {/* <h2>Page 3</h2> */}
 
       <div className={P3.container}>
         <div className={P3.left}>

@@ -1,12 +1,11 @@
 import React from "react";
 import  P1 from "../Pages/Page1.module.css";
 
-import css from "../Pages/Page1.module.css"
 
 const Page1 = () => {
   return (
     <>
-       <h1  className={css.abc}>Body 1</h1>
+       {/* <h1  className={css.abc}>Body 1</h1> */}
       <div className={P1.container}>
         <div className={P1.first}>
           <p>Introducing Sourcing Automation</p>
