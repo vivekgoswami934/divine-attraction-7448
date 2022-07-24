@@ -9,44 +9,44 @@ const SigninPage = () => {
 
       <div className={styles.container}>
         <div className={styles.first}>
-            <div>
-          <h1>Discover what’s new in Greenhouse</h1>
+          <div>
+            <h1>Discover what’s new in Greenhouse</h1>
 
-          <p>
-            We’re constantly innovating and adding new features to help you get
-            better at hiring. Make the most of your Greenhouse by unlocking new
-            features and strengthening your abilities in reporting, structured
-            hiring and more.
-          </p>
+            <p>
+              We’re constantly innovating and adding new features to help you
+              get better at hiring. Make the most of your Greenhouse by
+              unlocking new features and strengthening your abilities in
+              reporting, structured hiring and more.
+            </p>
 
-          <h1>Looking for help?</h1>
+            <h1>Looking for help?</h1>
 
-          <p>
-            You can access our support center at any time to get answers to your
-            questions, find how-to information or to get in touch with our
-            Support Team.
-          </p>
+            <p>
+              You can access our support center at any time to get answers to
+              your questions, find how-to information or to get in touch with
+              our Support Team.
+            </p>
           </div>
         </div>
         <div className={styles.second}>
           <div className="form">
             <h6>Working Email Addres</h6>
-            <input type="text" placeholder="Email Address..." required/>
+            <input type="text" placeholder="Email Address..." required />
             <br />
             <h6>First Name</h6>
             <input type="text" placeholder="First Name..." required />
             <br />
             <h6>Last Name</h6>
-            <input type="text" placeholder="Last Name" required/>
+            <input type="text" placeholder="Last Name" required />
             <br />
             <h6>Company Name</h6>
-            <input type="text" placeholder="Company Name" required/>
+            <input type="text" placeholder="Company Name" required />
             <br />
             <h6>Company Size</h6>
-            <input type="number" placeholder="company size" required/>
+            <input type="number" placeholder="company size" required />
             <br />
             <Link to="/signin">
-            <button>Get in touch</button>
+              <button>Get in touch</button>
             </Link>
           </div>
         </div>
